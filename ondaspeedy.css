@@ -4,12 +4,22 @@
   margin:0;
   padding:0;
   font-family: 'Crete Round', serif;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   background: url('fondo.svg') center center no-repeat fixed;
   background-size: cover;
   background-color: #0b557e;
   color: #FFF;
+  margin-bottom: 100px;
 }
 
 #nav-ppal .navbar,
@@ -48,6 +58,12 @@ body {
 
 #contenedor {
   margin-top: 100px;
+}
+
+#contenedor .copy {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
 }
 
 #contenedor .col-md-4 > h2 {
@@ -130,9 +146,11 @@ div[class="radio"] {
 }
 
 .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   min-height: 70px;
-  background: #012943;
-  margin-top: 40px;
+  background-color: #012943;
   text-align: center;
   font-size: .9em;
 }
