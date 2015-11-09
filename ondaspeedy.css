@@ -165,4 +165,8 @@ div[class="radio"] {
     font-size: 1.2em;
     padding: 23px 0;
   }
+
+  .footer .container > .col-xs-12 {
+    padding-bottom: 15px;
+  }
 }
